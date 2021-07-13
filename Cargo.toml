@@ -175,4 +175,4 @@ path = "src/examples/example_sudo.rs"
 
 #[[example]]
 #name = "example_custom_storage_struct"
-#path = "src/examples/example_cust
+#path = "src/examples/example_custom_storage_struct.rs"

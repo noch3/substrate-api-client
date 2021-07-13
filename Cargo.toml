@@ -74,6 +74,13 @@ git = "https://github.com/paritytech/substrate.git"
 branch = "master"
 optional = true
 
+# need to add this for the app_crypto macro
+#[dependencies.sp-application-crypto]
+#git = "https://github.com/paritytech/substrate.git"
+#branch = "master"
+#default-features = false
+#features = ["full_crypto"]
+
 [dev-dependencies.node-template-runtime]
 git = "https://github.com/scs/substrate-api-client-test-node"
 branch = "bump-to-polkadot-v0.9.2"
@@ -90,7 +97,8 @@ features = ["yaml"]
 [features]
 default = ["std"]
 std = [
-    "sc-rpc-api",
+#	"sp-application-crypto/std",
+	"sc-rpc-api",
 	"sp-core/std",
 	"codec/std",
 	"metadata/std",
@@ -109,8 +117,6 @@ std = [
 	"primitive-types",
 	"thiserror",
 ]
-# need to add this for the app_crypto macro
-full_crypto = []
 
 [[example]]
 name = "example_get_storage"
@@ -169,4 +175,4 @@ path = "src/examples/example_sudo.rs"
 
 #[[example]]
 #name = "example_custom_storage_struct"
-#path = "src/examples/example_custom_storage_struct.rs"
+#path = "src/examples/example_cust

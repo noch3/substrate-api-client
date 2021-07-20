@@ -1284,9 +1284,9 @@ dependencies = [
 
 [[package]]
 name = "hex"
-version = "0.4.2"
+version = "0.4.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "644f9158b2f133fd50f5fb3242878846d9eb792e445c893805ff0e3824006e35"
+checksum = "7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70"
 
 [[package]]
 name = "hmac"
@@ -1980,7 +1980,7 @@ dependencies = [
 [[package]]
 name = "node-template-runtime"
 version = "3.0.0"
-source = "git+https://github.com/scs/substrate-api-client-test-node?branch=bump-to-polkadot-v0.9.2#7d14a36de9c47b80b46bc739b795c6b67c8cbd45"
+source = "git+https://github.com/noch3/substrate-api-client-test-node?branch=elliot/master#76eb5894926a61fc7588af11dd988ad72e7f8c29"
 dependencies = [
  "frame-executive",
  "frame-support",
@@ -2246,7 +2246,7 @@ dependencies = [
 [[package]]
 name = "pallet-template"
 version = "3.0.0"
-source = "git+https://github.com/scs/substrate-api-client-test-node?branch=bump-to-polkadot-v0.9.2#7d14a36de9c47b80b46bc739b795c6b67c8cbd45"
+source = "git+https://github.com/noch3/substrate-api-client-test-node?branch=elliot/master#76eb5894926a61fc7588af11dd988ad72e7f8c29"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
